@@ -1,0 +1,103 @@
+.quiz-form {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #f5f7fa, #e4e9f0);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .form-input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #e0e6ed;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background: #f9fbfc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .option-input {
+    margin-left: 20px;
+    width: calc(100% - 40px);
+  }
+  
+  .form-select {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #e0e6ed;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background: #f9fbfc;
+    cursor: pointer;
+  }
+  
+  .questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .question-block {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .add-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto 20px;
+    padding: 15px;
+    background: linear-gradient(90deg, #f39c12, #e67e22);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-btn:hover {
+    background: linear-gradient(90deg, #e67e22, #d35400);
+    transform: scale(1.05);
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 15px;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(90deg, #2980b9, #1f618d);
+    transform: scale(1.05);
+  }
