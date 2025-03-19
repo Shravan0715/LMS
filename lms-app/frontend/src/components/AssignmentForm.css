@@ -1,0 +1,40 @@
+.assignment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .file-input {
+    padding: 20px;
+    border: 3px dashed #3498db;
+    border-radius: 12px;
+    background: #f9fbfc;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background 0.3s ease;
+  }
+  
+  .file-input:hover {
+    border-color: #2980b9;
+    background: #e6ecef;
+  }
+  
+  .submit-btn {
+    padding: 15px 50px;
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(90deg, #27ae60, #219653);
+    transform: scale(1.05);
+  }
